@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'nunito-sans': ['"Nunito Sans"', 'sans-serif']
+        'nunito-sans': ['"Nunito Sans"', 'sans-serif'],
+        'merriweather': ['"Merriweather"', 'serif'],
+        'merriweather-sans': ['"Merriweather Sans"', 'sans-serif'],
       }
     },
   },

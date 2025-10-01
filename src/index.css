@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
 
 :root {
-  font-family: "Nunito Sans",  sans-serif, ;
+  font-family: "Nunito Sans", system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -17,24 +17,23 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
   text-decoration: inherit;
 }
-a:hover {
-  color: #535bf2;
-}
+
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
+h1, h2 {
+  font-family: "Merriweather Sans", sans-serif;
   line-height: 1.1;
+}
+
+span .title-company {
+  font-family: "Merriweather", serif;
 }
 
 button {
@@ -49,7 +48,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #0776a2;
 }
 button:focus,
 button:focus-visible {
@@ -62,7 +61,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #0776a2;
   }
   button {
     background-color: #f9f9f9;
