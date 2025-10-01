@@ -547,13 +547,13 @@ function App() {
             seluruh Indonesia.
           </p>
         </div>
-        <div className="max-w-6xl flex gap-8 items-center justify-center mb-10">
+        <div className="max-w-6xl flex gap-8 text-center items-center justify-center mb-10">
           <div className="flex-auto h-auto ">
             <div className="w-50 h-50 text-center flex items-center justify-center bg-gray-200 mb-3 rounded-2xl shadow-md">
               <img src={food} alt="Food" className="w-25 h-25 object-cover" />
             </div>
             <p className="text-xl font-bold mb-4">Makanan cepat saji</p>
-            <p className="text-xl">67 bisnis</p>
+            <p className="text-xl text-teal-500">67 bisnis</p>
           </div>
           <div className="flex-auto h-auto ">
             <div className="w-50 h-50 text-center flex items-center justify-center bg-gray-200 mb-3 rounded-2xl shadow-md">
@@ -564,7 +564,7 @@ function App() {
               />
             </div>
             <p className="text-xl font-bold mb-4">Kopi Kekinian</p>
-            <p className="text-xl">67 bisnis</p>
+            <p className="text-xl text-teal-500">67 bisnis</p>
           </div>
           <div className="flex-auto h-auto ">
             <div className="w-50 h-50 text-center flex items-center justify-center bg-gray-200 mb-3 rounded-2xl shadow-md">
@@ -575,7 +575,7 @@ function App() {
               />
             </div>
             <p className="text-xl font-bold mb-4">Jasa & Pendidikan</p>
-            <p className="text-xl">67 bisnis</p>
+            <p className="text-xl text-teal-500">67 bisnis</p>
           </div>
           <div className="flex-auto h-auto ">
             <div className="w-50 h-50 text-center flex items-center justify-center bg-gray-200 mb-3 rounded-2xl shadow-md">
@@ -586,14 +586,14 @@ function App() {
               />
             </div>
             <p className="text-xl font-bold mb-4">Kecantikan</p>
-            <p className="text-xl">67 bisnis</p>
+            <p className="text-xl text-teal-500 ">67 bisnis</p>
           </div>
           <div className="flex-auto h-auto ">
             <div className="w-50 h-50 text-center flex items-center justify-center bg-gray-200 mb-3 rounded-2xl shadow-md">
               <img src={shop} alt="Shop" className="w-25 h-25 object-cover" />
             </div>
             <p className="text-xl font-bold mb-4">Ritel & Minimarket</p>
-            <p className="text-xl">67 bisnis</p>
+            <p className="text-xl text-teal-500">67 bisnis</p>
           </div>
         </div>
         <div
