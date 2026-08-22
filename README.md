@@ -26,6 +26,6 @@ Proyek ini bertujuan untuk mengembangkan WaralabaKita.id, sebuah platform digita
 
 ## Cara Menjalankan 
 1. Lakukan git clone atau download zip
-   '''javascript
-      https://github.com/afharyo12/Waralabakita.id.git
-   '''
+'''javascript
+https://github.com/afharyo12/Waralabakita.id.git
+'''
