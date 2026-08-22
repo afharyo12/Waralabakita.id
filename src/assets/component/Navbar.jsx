@@ -135,7 +135,7 @@ export const LandingPageNavbar = ({
 
 export const HomePageNavbar = () => {
   return (
-    <nav className="bg-white dark:bg-gray-900 sticky top-0 w-full h-20 z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600 ">
+    <nav className="bg-white dark:bg-gray-900 sticky top-0 w-full h-20 z-20 top-0 start-0  ">
       {/* ... your nav content remains the same ... */}
       <div className="max-w-screen-xl gap-x-4 flex flex-wrap items-center justify-center mx-auto h-full">
         <a className="flex rtl:space-x-reverse ">
@@ -144,7 +144,7 @@ export const HomePageNavbar = () => {
           </span>
         </a>
 
-        <div className="bg-blue-200">Kategori</div>
+        <div>Kategori</div>
 
         <div class="hidden  w-100 lg:block">
           <div class="relative w-full max-w-lg">

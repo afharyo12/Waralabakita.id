@@ -38,7 +38,7 @@ const categoryData = [
 function CategoryListSection() {
 return (
     
-<div class="flex justify-center text-xl text-white mt-5 flex-wrap gap-x-2">
+<div class="flex justify-center text-xl  text-white mt-5 flex-wrap gap-x-2 mb-10">
   {categoryData.map((category) => (
           
           // 3. We render a button for each item in the array.
@@ -49,10 +49,10 @@ return (
             `}
           >
             {/* The icon is rendered here */}
-            <span className="text-xl w-7 h-7">
+            <span className="text-xl  w-7 h-7">
                 <img src={category.icon} alt="" />
             </span>
-            <span>
+            <span className="font-medium">
               {category.text}
             </span>
           </button>
