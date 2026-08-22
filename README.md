@@ -29,3 +29,13 @@ Proyek ini bertujuan untuk mengembangkan WaralabaKita.id, sebuah platform digita
 ```
 git clone https://github.com/afharyo12/Waralabakita.id.git
 ```
+
+2. Download semua package yang digunakan dengan
+```
+npm install
+```
+
+3. Jalankan localhost
+```
+npm run dev
+```
