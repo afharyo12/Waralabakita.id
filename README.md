@@ -8,6 +8,7 @@ Proyek ini bertujuan untuk mengembangkan WaralabaKita.id, sebuah platform digita
 
 ## Tech Stack
 * ReactJS
+* TailwindCSS
 
 ## Daftar Package 
 * @eslint/js@9.36.0
